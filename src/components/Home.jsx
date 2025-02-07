@@ -168,7 +168,7 @@ const Home = () => {
                 </button>
             </div>
             <div className='flex justify-center items-center m-auto  w-[600px] h-[600px] '>
-                <img src="public/j_logo.png" alt="Error" className='absolute top-56 -translate-y-1/3   pb-20 left-1/2 -translate-x-1/2  h-auto w-1/4 sm:w-6/12 md:w-9/12 ' />
+                <img src="https://imgur.com/t2dnCao" alt="Error" className='absolute top-56 -translate-y-1/3   pb-20 left-1/2 -translate-x-1/2  h-auto w-1/4 sm:w-6/12 md:w-9/12 ' />
             </div>
             <div className='flex justify-center items-center'>
                 <ul className="flex items-center flex-col  gap-6 m-4">

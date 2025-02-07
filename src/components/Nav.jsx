@@ -6,7 +6,7 @@ const Nav = () => {
     <div>
         <header
             class="pointer-events-none z-10 flex items-center justify-between mt-4 px-4 max-w-screen-xl mx-auto w-full">
-            <img src="public/j_logo.png" alt="" width="100px" height="100px" />
+            <img src="https://imgur.com/t2dnCao" alt="" width="100px" height="100px" />
             <div class="flex gap-4 pointer-events-auto">
                 <a href="tel:9142490309">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
