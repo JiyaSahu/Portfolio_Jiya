@@ -1,0 +1,141 @@
+
+:root{
+    --github:#fff;
+    --linkdin:#0371ae;
+    --instagram:#d12c7a;
+    --youtube:#FF0000;
+}
+.tooltipTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.3s all ease-in-out;
+}
+
+.tooltipTop span{
+    position: absolute;
+    color: #fff;
+    transform: translateY(0px);
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.3s all cubic-bezier(0.175,0.32,1.275);
+    transition-delay: 0s;
+    background-color: #00FFFF;
+
+}
+
+
+/* tooltip Arrow  */
+
+.tooltipTop span::before{
+    position: absolute;
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #00FFFF;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.tooltipTop:hover span{
+    transform: translateX(80px);
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+/* ************* social media**********  */
+
+.tooltipSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.3s all ease-in-out;
+}
+
+.tooltipSocial span{
+    position: absolute;
+    color: #fff;
+    transform: translateY(0px);
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.3s all cubic-bezier(0.175,0.32,1.275);
+    transition-delay: 0s;
+    
+
+}
+
+
+/* tooltip Arrow  */
+
+.tooltipSocial span::before{
+    position: absolute;
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-30%);
+
+}
+
+.github span{
+    background-color: var(--github);
+}
+.tooltipSocial.github span::before{
+    background-color: var(--github);
+}
+.linkdin span{
+    background-color: var(--linkdin);
+}
+.tooltipSocial.linkdin span::before{
+    background-color: var(--linkdin);
+}
+.tooltipSocial.instagram span{
+    background-color: var(--instagram);
+}
+.tooltipSocial.instagram span::before{
+    background-color: var(--instagram);
+}
+.tooltipSocial.youtube span{
+    background-color: var(--youtube);
+}
+.tooltipSocial.youtube span::before{
+    background-color: var(--youtube);
+}
+
+.tooltipSocial.github:hover{
+    background-color: var(--github);
+}
+.tooltipSocial .linkdin:hover{
+    background-color: var(--linkdin);
+}
+.tooltipSocial .instagram:hover{
+    background-color: var(--instagram);
+}
+.tooltipSocial .youtube:hover{
+    background-color: var(--youtube);
+}
+
+.tooltipSocial.active span,
+.tooltipSocial:hover span{
+    transform: translateY(-50px);
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background: #070707;
+  color: white;
+}
+
+#setImg {
+  max-width: 300px;
+  margin-left: -3px;
+  margin-right: 39px;
+}
+
+#setImg img {
+  max-width: 284px;
+  height: 260px;
+  /* margin-left: -93px; */
+
+}
+
+#setImg video {
+  /* height: 272px; */
+  width: 185px;
+  top: 76px;
+  right: 50px;
+
+}
+
+#setImg svg {
+  width: 180px;
+  left: 230px;
+
+}
+
+#line {
+  width: 40px;
+}
