@@ -1,6 +1,7 @@
 import React from 'react'
 import './tooltip.css';
 import { Link } from 'react-router-dom'; // Import Link for navigation
+import j_logo from '../j_logo.png'
 
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
                     <Link to='/'>
                         {/* <span>To Top</span> */}
                     </Link>
-                    <img src="public/j_logo.png" alt="" width="100px" height="100px"/>
+                    <img src={j_logo} alt="" width="100px" height="100px"/>
 
                 </div>
 
