@@ -1,4 +1,5 @@
 import React from 'react'
+import PMS_video from '../PMS.mp4'
 
 const PMS = () => {
     return (
@@ -15,7 +16,7 @@ const PMS = () => {
             /> */}
                     {/* Video */}
                     <video
-                        src="public/PMS.mp4"
+                        src={PMS_video}
                         autoPlay
                         loop
                         muted

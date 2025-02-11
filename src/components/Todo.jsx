@@ -1,4 +1,5 @@
 import React from 'react'
+import Todo_video from '../todo.mp4'
 
 const Todo = () => {
   return (
@@ -15,7 +16,7 @@ const Todo = () => {
             /> */}
                     {/* Video */}
                     <video
-                        src="public/todo.mp4"
+                        src={Todo_video}
                         autoPlay
                         loop
                         muted

@@ -1,4 +1,5 @@
 import React from 'react'
+import Sweet_video from '../sweet.mp4'
 
 const Sweet = () => {
   return (
@@ -54,7 +55,7 @@ const Sweet = () => {
             /> */}
             {/* Video */}
             <video
-              src="public/sweet.mp4"
+              src={Sweet_video}
               autoPlay
               loop
               muted
