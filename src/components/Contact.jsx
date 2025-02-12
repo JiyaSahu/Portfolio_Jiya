@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import './tooltip.css';
+import PDF from '../Jiya_Resume_Final_5.pdf';
 
 const Contact = () => {
 
@@ -123,7 +124,7 @@ const Contact = () => {
                     </ul>
                 </div>
 
-                <a href="public/Jiya_Resume_Final_5.pdf" download>
+                <a href={PDF} download>
                     <button class="bg-[#4595eb] p-3 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6]  relative hover:scale-110 ease-in-out duration-100 group  w-[200px]
                     ">Download Resume
                     </button>
